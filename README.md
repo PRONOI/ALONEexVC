@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/ALONEexROBOT"><img src="https://telegra.ph/file/cb9e8807891b849c1065f.jpg"></a></p>
+<p align="center"><a href="https://t.me/ALONEexROBOT"><img src="https://telegra.ph/file/7a6d56ca38cae9cf63c91.jpg"></a></p>
 <p align="center">
     <br><b>Video Stream is an Open-Source Telegram Bot project that's allow you to play Video & Music trough the Telegram Group Video Chat</b><br>
 </p>
