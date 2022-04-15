@@ -6,16 +6,16 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "6204272"))
-API_HASH = getenv("API_HASH", "f935feb4ce106e741675d2e0894c6155")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_NAME = getenv("SESSION_NAME", "BQBygAFtnpzGLax4XkOosc7VJ9PrUw01ztOEw_2X3diPamtrdF3luU5Ia09AWH2N08PX-pvZYTBEqFTkUyAQMfe9RCByVeYyp1iF5RvvRdcjKoxjituFkFNmoVLKE1nRJ2d8pqqVdqeMffFdDMZuC9IPClmrbYHS9p1FrLrkBeCuPdjMZg6cERuGMFRFXlOlBSfClRsuNusK13zJ7Nxg09zCk3Qjw7wsyjVy7NySth3N6rpXcATX91Llu5N63teQSkS7669n9fzWwsS2rPV08HMmWQhxKej9rDFplajw2kgun3sODr4PuMabpDKlqA-SNJZJAUL8DTlOmPQuJf5nifeWcKBElAA")
+SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ALONExBOY")
 ALIVE_NAME = getenv("ALIVE_NAME", "ALONE")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ALONEaxASSISTANT")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001563186923"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 BOT_USERNAME = getenv("BOT_USERNAME", "ALONEexROBOT")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/PRONOI/ALONEexVC")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "master")
