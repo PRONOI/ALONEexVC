@@ -78,10 +78,10 @@ async def start_(c: Client, message: Message):
                     InlineKeyboardButton("• ʜᴇʟᴩ •", callback_data="command_list"),
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about_me") 
                 ],[
-                    InlineKeyboardButton("• ᴍᴀɪɴᴛᴀɪɴᴇʀ •", url=f"https://t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton("• ᴍᴀɪɴᴛᴀɪɴᴇʀ •", url=f"https://t.me/Xd_LyF"),
                     InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],[
-                    InlineKeyboardButton("• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url="https://t.me/ALONE_SUPPORT")
+                    InlineKeyboardButton("• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url="https://t.me/Xd_About")
                 ],
             ]
         ),
@@ -108,7 +108,7 @@ async def alive(c: Client, message: Message):
             ]
         ]
     )
-    text = f"**ʜᴇʏ {message.from_user.mention()},\n\n   ɪ'ᴍ {me_bot.first_name}**\n\n🖤 ᴅᴇᴠᴇʟᴏᴩᴇʀ: [这 𝘼ɭ๏ɴ𝙀↯™](https://t.me/ALONExBOY)\n🤯 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴩʏ∆ᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🥱 ᴜᴩᴛɪᴍᴇ: `{uptime}`\n"
+    text = f"**ʜᴇʏ {message.from_user.mention()},\n\n   ɪ'ᴍ {me_bot.first_name}**\n\n🖤 ᴅᴇᴠᴇʟᴏᴩᴇʀ: [这 ⏤͟͟͞Ftw™](https://t.me/Xd_LyF\n🤯 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴩʏ∆ᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🥱 ᴜᴩᴛɪᴍᴇ: `{uptime}`\n"
     await c.send_photo(
         chat_id,
         photo=f"{ALIVE_IMG}",
