@@ -12,8 +12,8 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ALONExBOY")
-ALIVE_NAME = getenv("ALIVE_NAME", "ALONE")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Xd_LyF")
+ALIVE_NAME = getenv("ALIVE_NAME", "⏤͟͟͞Ftw")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ALONEaxASSISTANT")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 BOT_USERNAME = getenv("BOT_USERNAME", "ALONEexROBOT")
@@ -21,7 +21,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/PRONOI/ALONEexVC")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "master")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ALONE_SUPPORT")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Xd_About")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv(" ")
