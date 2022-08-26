@@ -11,7 +11,7 @@ async def start_bot():
     LOGS.info("[INFO]: BOT & USERBOT CLIENT STARTED !!")
     await calls.start()
     LOGS.info("[INFO]: PY-TGCALLS CLIENT STARTED !!")
-    await user.join_chat("DevilsHeavenMF")
+    await user.join_chat("ALONExSUPPORT")
     await user.send_message(f"{cli}", "/start")
     await idle()
     LOGS.info("[INFO]: BOT & USERBOT STOPPED !!")
